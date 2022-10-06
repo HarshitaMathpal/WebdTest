@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webiste</title>
+    <style>
+    body {
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url(/Images.jpg/ezgif.com-gif-maker.jpg); */
+    height: 1400px;
+    /* color: black; */
+    background-repeat:no-repeat;
+    /* background-color: rgb(253, 63, 158); */
+  }
+  header{
+    background-color: rgb(105, 0, 80);
+    height: 80px;
+  }
+  .left {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    }
+    .left img{
+        width: 50px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    /* .left img:hover{
+        border: 2px solid black;
+        size: 5%;
+    } */
+  .mid {
+    /* border: 2px solid red; */
+    display: block;
+    width: 60%;
+    margin:auto;
+    
+    border-radius: 15px;
+  }
+  .right {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+  .navbar{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .navbar li{
+    display: inline-block;
+    font-size: 20px;
+    /* border-radius: 4px; */
+  }
+  .navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+  }
+  .navbar li a:hover, .navbar li a.active{
+    color:rgb(0, 255, 221);
+    /* font-size: 21px; */
+  }
+  .btn{
+    padding: 6px 12px;
+    margin: 0px 9px;
+    font-size: 18px;
+    background-color: transparent;
+    color: rgb(0, 255, 221);
+    border: 2px solid rgb(0, 255, 221);
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+  }
+  .btn:hover{
+    background-color:rgb(0, 255, 221);
+    color: black;
+  }
+  .blog{
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid balck;
+    background-color: blanchedalmond;
+    font-size: 18px;
+  }
+  .pic{
+    color: cornflowerblue;
+    font-size: 30px;
+  }
+  .row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+  }
+  .row img{
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+  }
+  .row img:hover{
+    opacity: calc(0.5);
+  }
+  .capture{
+    padding: 15px 5px;
+    height: 300px;
+    background-color: rgba(7, 123, 107, 0.5);
+    
+  }
+  h4{
+    text-align:center;
+    color:rgb(5, 255, 255);
+  }
+  .temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+  }
+  h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+  }
+  .photo{
+    background-image: url(https://media.istockphoto.com/photos/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-picture-id1285301614?k=20&m=1285301614&s=612x612&w=0&h=WbwgiM4M_JWWC9ew3Mhxq1XPyfZ-Sko_RgKf7toPe7A=);
+    opacity: calc(0.8);
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+  }
+  footer{
+    height: 300px;
+    background-color: black;
+  }
+  .last{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .col{
+    /* border: 2px solid white; */
+    width: 350px;
+    padding: 20px;
+    margin: 15px;
+    color: white;
+  }
+  input{
+    background-color: transparent;
+    color: rgb(0, 255, 221);
+    border: 2px solid rgb(0, 255, 221);
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+  }
+  .icon{
+    /* height: 20px; */
+    background-color: antiquewhite;
+    width: fit-content;
+  }
+  </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+          <div class="left">
+              <img src="https://thumbs.dreamstime.com/b/jpg-file-icon-logo-element-illustration-design-155443757.jpg" alt="my logo">
+          </div>
+          <div class="mid"><ul class="navbar">
+              <li><a href="#" >Home</a></li>
+              <li><a href="#" target="_blank">About</a></li>
+              <li><a href="#" target="_blank">Blogs</a></li>
+              <li><a href="#" target="_blank">Plans</a></li>
+              <li><a href="#" target="_blank">Gallery</a></li>
+              <li><a href="#" target="_blank">Contact Us</a></li>
+            </ul></div>
+          <div class="right">
+            <button class="btn">Book Trial</button>
+            <!-- <button class="btn">Email us</button> -->
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="blog">
+            <span class="pic">Photographer's Blog</span><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, consequatur?
+        </div>
+        <div class="row">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOM0DZnmN-v2x5TtA2FrlrsDBto8S15Vsdbw&usqp=CAU" alt="img1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkPEZURfb7yIJ5la1EfKxuzCuAHsF8rBDr2g&usqp=CAU" alt="img2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU7ItjfQhurceFITrBXQfXz68ftQRHxWFPmw&usqp=CAU" alt="img3">
+        </div>
+        <div class="row">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ41o1Qlx58llWQKgnKTImEsnFYacPnBwVagA&usqp=CAU" alt="img4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaPFz8seTKvfM_R7rVSUpqFMi0RNhEMbe-GCk0dVLSYUMvOlTp-iUnDrZO71lQm9NBMdI&usqp=CAU" alt="img5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQG4Fz80fWIsvNk-Peu_hUjA6PR1c51-A2PLafnXvpqRn0tb8ad1VzdXsPTO5dzmU3Gg8&usqp=CAU" alt="img6">
+        </div>
+      </main>
+      <div class="photo">
+      <div class="capture">
+        <h4>START YOUR JOURNEY !</h4>
+        <h1>Let's Capture This World</h1>
+        <br>
+        <span class="temp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora dicta, corrupti repellat exercitationem corporis nobis cum ab optio libero ipsum.</span>
+        <br><br><br>
+        <div class="button"><button class="btn">Book Trial</button></div>
+        </div>
+    </div>
+        <footer class="last">
+            <div class="col">
+                <b> PHOTOGRAPHY</b> <br> <br> <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing.
+                <br> <br> <br>
+                <div class="icon">
+                    <svg style="height: 30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+                    <svg style="height: 30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/></svg>
+                    <svg style="height: 30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                </div>
+            </div>
+            <div class="col">
+                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                &nbsp;CONTACT INFO</b> <br> <br>
+                <ul type="none">
+                    <li >New Delhi, India </li>
+                    <br>
+                    <li>+9999-999-999</li>
+                    <br>
+                    <li>abcd@gmail.com</li>
+                    <br>
+                    <li>7 a.m - 10 p.m</li>
+                </ul>
+            </div>
+            <div class="col">
+                <b> NEWSLETTER </b> <br> <br> <br>
+                Subscribe for latest updates.
+                <br> <br>
+                <input type="email" placeholder="Enter Your Email"> <br> <br> 
+                <button class="btn">Subscribe</button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
